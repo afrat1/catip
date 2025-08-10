@@ -21,10 +21,7 @@ export default function TabNavigator(): React.JSX.Element {
           backgroundColor: isDarkMode ? '#1C1C1E' : '#FFFFFF',
           borderTopColor: isDarkMode ? '#38383A' : '#C6C6C8',
         },
-        headerStyle: {
-          backgroundColor: isDarkMode ? '#1C1C1E' : '#FFFFFF',
-        },
-        headerTintColor: isDarkMode ? '#FFFFFF' : '#000000',
+        headerShown: false,
       }}>
       <Tab.Screen
         name="Home"
